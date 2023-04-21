@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.nbar{
+    height: 60px;
+    width: 100%;
+    box-shadow: 5px 5px 5px 5px rgb(172, 167, 167);
+    background-color: rgb(244, 51, 151);
+}
+ .h1{
+    position: absolute;
+    margin: 17px 10px 10px 10px;
+    font-size: 20px;
+    color: #fff;
+}
+.userIcon{
+    position: absolute;
+    right: 18px;
+    color: #fff;
+    margin: 17px 10px 10px 10px;
+
+ }
+ .userIcon span{
+    font-size: 20px;
+    font-style: italic;
+    margin: 5px;
+ }
+
+.main-container{
+    height: auto;
+    width: 100%;
+    display: flex;
+    margin-top: 10px;
+}
+#firstDiv{
+    margin: 10px;
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+#firstDiv img{
+    box-shadow: 5px 5px 5px 5px rgb(172, 167, 167);
+    width: 38%;
+    margin: 10px;
+}
+#container{
+    height: auto;
+    width: 50%;
+    box-shadow: 5px 5px 5px 5px rgb(172, 167, 167);
+}
+.secondContainer{
+    height: auto;
+    width: 50%;
+    box-shadow: 5px 5px 5px 5px rgb(172, 167, 167);
+    margin-left: 20px;
+}
+
+.price{
+    margin: -20px 0px -20px 45px;
+}
+.secondContainer select{
+    height: 30px;
+    margin: 10px 0px 30px 30px ;
+
+}
+.info {
+    margin-left: 30px;
+}
+.info button{
+    margin: 10px 0px 0px 30px ;
+    background-color: rgb(244, 51, 151);
+    border: 0;
+     height: 30px;
+     width: 20%;
+    border-radius: 5px;
+    margin: 20px 10px 10px 0px;
+    color: #fff;
+}
+.secondContainer label{
+margin: 0px 0px 10px 30px;
+
+}
+.secondContainer button{
+    border: 0;
+    height: 30px;
+    width: 20%;
+    border-radius: 5px;
+    margin: 20px 10px 10px 0px;
+    color: #fff;
+    background-color: black;
+    margin: 10px 0px 10px 29px;
+}
+
+#firstDiv button{
+    height: 30px;
+    width: 9%;
+} 
+ #firstDiv .textbox1{
+    height: 25px;
+    width: 20px;
+}
+#firstDiv .dltBtn{
+background-color: rgb(244, 51, 151);
+border: 0;
+height: 30px;
+width: 20%;
+border-radius: 5px;
+margin: 0px 0px 0px 0px;
+color: #fff;
+}
+
+#buyNowDiv{
+    height: auto;
+    width: 50%;
+    border-radius: 5px;
+    display: none;
+    box-shadow: 5px 5px 5px 5px rgb(172, 167, 167);
+} 
+#buyNowDiv  input{
+    margin: 10px 0px 0px 10px;
+}
+.addressDiv{
+    height: 150px;
+    width: 100%;
+    
+}
+ #disAdd{
+    height: auto;
+    width: 50%;
+    box-shadow: 5px 5px 5px 5px rgb(172, 167, 167);
+    margin: 10px 0px 0px 29px;
+
+ }
+ #disAdd input {
+    margin: 10px 0px 0px 10px;
+
+ }
+.clickmeMinus{
+    height: auto;
+    width: auto;
+    background-color: rgb(244, 51, 151);
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+
+ }
+ .clickPlus{
+    height: auto;
+    width: auto;
+    background-color: rgb(244, 51, 151);
+    border: 0;
+    border-radius: 5px;
+    color: #fff;
+
+ }
+
